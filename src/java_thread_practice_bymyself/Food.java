@@ -43,7 +43,7 @@ public class Food {
         }
 
         num--;
-        System.out.println(Thread.currentThread().getName()+"消是颠倒是非费了一个食物,现在总量为:"+getNum());
+        System.out.println(Thread.currentThread().getName()+"消费了一个食物,现在总量为:"+getNum());
         notifyAll();
     }
 
